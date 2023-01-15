@@ -33,7 +33,7 @@ class _HomeState extends State<Home> {
       floatingActionButton: FloatingActionButton(
         backgroundColor: Colors.green,
         child: Icon(
-          Icons.add_a_photo,
+          Icons.post_add,
           color: Colors.white,
         ),
         onPressed: () {
