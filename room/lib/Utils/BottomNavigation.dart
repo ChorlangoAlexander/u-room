@@ -1,5 +1,6 @@
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
+import 'package:room/Screens/Chats.dart';
 import 'package:room/Screens/Home.dart';
 import 'package:room/Screens/Mensajes.dart';
 import 'package:room/Screens/Perfil.dart';
@@ -16,8 +17,8 @@ class _BNavigattorState extends State<BNavigattor> {
   int _paginaActual = 0;
   List<Widget> _paginas = [
     Home(),
-    MensajesScreen(),
-    MensajesScreen(),
+    ChatsScreen(),
+    PerfilScreen(),
     PerfilScreen(),
   ];
   @override

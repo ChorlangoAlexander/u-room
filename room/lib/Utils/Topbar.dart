@@ -18,7 +18,7 @@ class _TopBarState extends State<TopBar> {
           onPressed: () {},
           icon: Icon(
             Icons.settings,
-            color: Colors.green,
+            color: Colors.black,
           ),
         ),
       ],
